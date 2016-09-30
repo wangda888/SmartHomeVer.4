@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="S400_GD130|Win32">
+      <Configuration>S400_GD130</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{630C639D-C434-4F17-AB2D-5D46AF7B2116}</ProjectGuid>
+    <Keyword>MakeFileProj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='S400_GD130|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings" />
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='S400_GD130|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='S400_GD130|Win32'">
+    <NMakeOutput>S400_GD130.exe</NMakeOutput>
+    <NMakePreprocessorDefinitions>USE_STDPERIPH_DRIVER</NMakePreprocessorDefinitions>
+    <IncludePath>..\..\..\S400_DG130;..\..\Firmware\Peripherals\inc;..\..\Firmware\CMSIS;..\..\HARDWARE\LED;..\..\SYSTEM\sys;..\..\SYSTEM\delay;..\..\SYSTEM\usart;..\..\HARDWARE\EC11;..\..\HARDWARE\ET2259;..\..\Func485;</IncludePath>
+    <NMakeBuildCommandLine>"C:\Keil_v5\UV4\UV4.exe " -b ..\S400_GD130.uvprojx -t "S400_GD130" -j0 -o Build.log</NMakeBuildCommandLine>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <None Include="..\..\Firmware\CMSIS\startup_gd32f1x0.s" />
+    <None Include="Readme.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\gd32f1x0_it.c" />
+    <ClCompile Include="..\..\main.c" />
+    <ClCompile Include="..\..\HARDWARE\LED\LED.c" />
+    <ClCompile Include="..\..\HARDWARE\EC11\EC11.c" />
+    <ClCompile Include="..\..\HARDWARE\ET2259\ET2259.c" />
+    <ClCompile Include="..\..\HARDWARE\ET2259\myiic.c" />
+    <ClCompile Include="..\..\SYSTEM\sys\sys.c" />
+    <ClCompile Include="..\..\SYSTEM\delay\delay.c" />
+    <ClCompile Include="..\..\SYSTEM\usart\usart.c" />
+    <ClCompile Include="..\..\Firmware\CMSIS\core_cm3.c" />
+    <ClCompile Include="..\..\Firmware\CMSIS\system_gd32f1x0.c" />
+    <ClCompile Include="..\..\Firmware\Peripherals\src\gd32f1x0_crc.c" />
+    <ClCompile Include="..\..\Firmware\Peripherals\src\gd32f1x0_exti.c" />
+    <ClCompile Include="..\..\Firmware\Peripherals\src\gd32f1x0_gpio.c" />
+    <ClCompile Include="..\..\Firmware\Peripherals\src\gd32f1x0_misc.c" />
+    <ClCompile Include="..\..\Firmware\Peripherals\src\gd32f1x0_rcc.c" />
+    <ClCompile Include="..\..\Firmware\Peripherals\src\gd32f1x0_rtc.c" />
+    <ClCompile Include="..\..\Firmware\Peripherals\src\gd32f1x0_timer.c" />
+    <ClCompile Include="..\..\Firmware\Peripherals\src\gd32f1x0_usart.c" />
+    <ClCompile Include="..\..\Firmware\Peripherals\src\gd32f1x0_fmc.c" />
+    <ClCompile Include="..\..\Func485\Func485.c" />
+    <ClCompile Include="..\..\Func485\FuncAPI.c" />
+    <ClCompile Include="..\..\Func485\uart3.c" />
+    <ClCompile Include="..\..\Func485\DataSave.c" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

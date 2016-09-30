@@ -1,0 +1,14 @@
+*** Using Compiler 'V5.06 update 1 (build 61)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
+Build target 'S400_GD130'
+compiling uart3.c...
+linking...
+.\output\S400_GD130.axf: Error: L6218E: Undefined symbol EC11_Num1 (referred from ec11.o).
+.\output\S400_GD130.axf: Error: L6218E: Undefined symbol EC11_Num2 (referred from ec11.o).
+.\output\S400_GD130.axf: Error: L6218E: Undefined symbol EC11_Num3 (referred from ec11.o).
+.\output\S400_GD130.axf: Error: L6218E: Undefined symbol EC11_Num4 (referred from ec11.o).
+.\output\S400_GD130.axf: Error: L6218E: Undefined symbol ChanSwitch (referred from funcapi.o).
+Not enough information to list image symbols.
+Finished: 1 information, 0 warning and 5 error messages.
+".\output\S400_GD130.axf" - 5 Error(s), 0 Warning(s).
+Target not created.
+Build Time Elapsed:  00:00:01

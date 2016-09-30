@@ -1,0 +1,1 @@
+﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.MakeFile.Targets(37,5): error MSB3073: 命令“"C:\Keil_v5\UV4\UV4.exe " -b ..\S400_GD130.uvprojx -t "S400_GD130" -j0 -o Build.log”已退出，代码为 2。

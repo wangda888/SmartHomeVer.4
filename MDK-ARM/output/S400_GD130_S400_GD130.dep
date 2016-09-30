@@ -1,0 +1,531 @@
+Dependencies for Project 'S400_GD130', Target 'S400_GD130': (DO NOT MODIFY !)
+F (..\gd32f1x0_it.c)(0x57A0138B)(-c --cpu Cortex-M3 -g -W -O0 --apcs=interwork --split_sections -I ..\..\S400_GD130 -I ..\Firmware\Peripherals\inc -I ..\Firmware\CMSIS -I ..\HARDWARE\LED -I ..\SYSTEM\sys -I ..\SYSTEM\delay -I ..\SYSTEM\usart -I ..\HARDWARE\EC11 -I ..\HARDWARE\ET2259 -I ..\Func485 -I ..\HARDWARE\ET62429-I E:\WorkHope\S400\trunk\S400_GD130\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\Keil\GD32F1xx_DFP\1.1.0\Device\GD32F1x0\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="520" -DGD32F1x0 -DUSE_STDPERIPH_DRIVER-o .\output\gd32f1x0_it.o --omf_browse .\output\gd32f1x0_it.crf --depend .\output\gd32f1x0_it.d)
+I (..\gd32f1x0_it.h)(0x5652AE71)
+I (..\Firmware\CMSIS\gd32f1x0.h)(0x57A02871)
+I (..\Firmware\CMSIS\core_cm3.h)(0x5652AE6F)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DB2B80)
+I (..\Firmware\CMSIS\system_gd32f1x0.h)(0x5652AE6F)
+I (..\..\S400_GD130\gd32f1x0_conf.h)(0x57A93C65)
+I (..\Firmware\Peripherals\inc\gd32f1x0_adc.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_cmp.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_crc.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_exti.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_fmc.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_gpio.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_misc.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_rcc.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_rtc.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_spi.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_syscfg.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_timer.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_usart.h)(0x5652AE70)
+F (..\main.c)(0x57DE45EB)(-c --cpu Cortex-M3 -g -W -O0 --apcs=interwork --split_sections -I ..\..\S400_GD130 -I ..\Firmware\Peripherals\inc -I ..\Firmware\CMSIS -I ..\HARDWARE\LED -I ..\SYSTEM\sys -I ..\SYSTEM\delay -I ..\SYSTEM\usart -I ..\HARDWARE\EC11 -I ..\HARDWARE\ET2259 -I ..\Func485 -I ..\HARDWARE\ET62429-I E:\WorkHope\S400\trunk\S400_GD130\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\Keil\GD32F1xx_DFP\1.1.0\Device\GD32F1x0\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="520" -DGD32F1x0 -DUSE_STDPERIPH_DRIVER-o .\output\main.o --omf_browse .\output\main.crf --depend .\output\main.d)
+I (..\SYSTEM\sys\sys.h)(0x57B3B943)
+I (..\Firmware\CMSIS\gd32f1x0.h)(0x57A02871)
+I (..\Firmware\CMSIS\core_cm3.h)(0x5652AE6F)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DB2B80)
+I (..\Firmware\CMSIS\system_gd32f1x0.h)(0x5652AE6F)
+I (..\..\S400_GD130\gd32f1x0_conf.h)(0x57A93C65)
+I (..\Firmware\Peripherals\inc\gd32f1x0_adc.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_cmp.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_crc.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_exti.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_fmc.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_gpio.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_misc.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_rcc.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_rtc.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_spi.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_syscfg.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_timer.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_usart.h)(0x5652AE70)
+I (..\SYSTEM\delay\delay.h)(0x57A02CAC)
+I (..\HARDWARE\LED\LED.h)(0x57B3BDB3)
+I (..\HARDWARE\EC11\EC11.h)(0x57A039C9)
+I (..\SYSTEM\usart\usart.h)(0x57A0033A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x55DB2B76)
+I (..\HARDWARE\ET2259\myiic.h)(0x57B3C708)
+I (..\HARDWARE\ET2259\ET2259.h)(0x57CE8FCE)
+I (..\Func485\func485.h)(0x57BFCA96)
+I (..\Func485\uart3.h)(0x57BFCA96)
+I (..\Func485\FuncAPI.h)(0x57CFB79C)
+I (..\HARDWARE\ET62429\ET62429.h)(0x57CE8289)
+F (..\HARDWARE\LED\LED.c)(0x57B3C738)(-c --cpu Cortex-M3 -g -W -O0 --apcs=interwork --split_sections -I ..\..\S400_GD130 -I ..\Firmware\Peripherals\inc -I ..\Firmware\CMSIS -I ..\HARDWARE\LED -I ..\SYSTEM\sys -I ..\SYSTEM\delay -I ..\SYSTEM\usart -I ..\HARDWARE\EC11 -I ..\HARDWARE\ET2259 -I ..\Func485 -I ..\HARDWARE\ET62429-I E:\WorkHope\S400\trunk\S400_GD130\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\Keil\GD32F1xx_DFP\1.1.0\Device\GD32F1x0\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="520" -DGD32F1x0 -DUSE_STDPERIPH_DRIVER-o .\output\led.o --omf_browse .\output\led.crf --depend .\output\led.d)
+I (..\HARDWARE\LED\LED.h)(0x57B3BDB3)
+I (..\SYSTEM\sys\sys.h)(0x57B3B943)
+I (..\Firmware\CMSIS\gd32f1x0.h)(0x57A02871)
+I (..\Firmware\CMSIS\core_cm3.h)(0x5652AE6F)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DB2B80)
+I (..\Firmware\CMSIS\system_gd32f1x0.h)(0x5652AE6F)
+I (..\..\S400_GD130\gd32f1x0_conf.h)(0x57A93C65)
+I (..\Firmware\Peripherals\inc\gd32f1x0_adc.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_cmp.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_crc.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_exti.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_fmc.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_gpio.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_misc.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_rcc.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_rtc.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_spi.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_syscfg.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_timer.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_usart.h)(0x5652AE70)
+F (..\HARDWARE\EC11\EC11.c)(0x57D2546B)(-c --cpu Cortex-M3 -g -W -O0 --apcs=interwork --split_sections -I ..\..\S400_GD130 -I ..\Firmware\Peripherals\inc -I ..\Firmware\CMSIS -I ..\HARDWARE\LED -I ..\SYSTEM\sys -I ..\SYSTEM\delay -I ..\SYSTEM\usart -I ..\HARDWARE\EC11 -I ..\HARDWARE\ET2259 -I ..\Func485 -I ..\HARDWARE\ET62429-I E:\WorkHope\S400\trunk\S400_GD130\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\Keil\GD32F1xx_DFP\1.1.0\Device\GD32F1x0\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="520" -DGD32F1x0 -DUSE_STDPERIPH_DRIVER-o .\output\ec11.o --omf_browse .\output\ec11.crf --depend .\output\ec11.d)
+I (..\HARDWARE\EC11\EC11.h)(0x57A039C9)
+I (..\SYSTEM\sys\sys.h)(0x57B3B943)
+I (..\Firmware\CMSIS\gd32f1x0.h)(0x57A02871)
+I (..\Firmware\CMSIS\core_cm3.h)(0x5652AE6F)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DB2B80)
+I (..\Firmware\CMSIS\system_gd32f1x0.h)(0x5652AE6F)
+I (..\..\S400_GD130\gd32f1x0_conf.h)(0x57A93C65)
+I (..\Firmware\Peripherals\inc\gd32f1x0_adc.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_cmp.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_crc.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_exti.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_fmc.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_gpio.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_misc.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_rcc.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_rtc.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_spi.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_syscfg.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_timer.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_usart.h)(0x5652AE70)
+I (..\HARDWARE\LED\LED.h)(0x57B3BDB3)
+I (..\HARDWARE\ET2259\ET2259.h)(0x57CE8FCE)
+I (..\SYSTEM\delay\delay.h)(0x57A02CAC)
+I (..\SYSTEM\usart\usart.h)(0x57A0033A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x55DB2B76)
+I (..\Func485\FuncAPI.h)(0x57CFB79C)
+F (..\HARDWARE\ET2259\ET2259.c)(0x57CF633B)(-c --cpu Cortex-M3 -g -W -O0 --apcs=interwork --split_sections -I ..\..\S400_GD130 -I ..\Firmware\Peripherals\inc -I ..\Firmware\CMSIS -I ..\HARDWARE\LED -I ..\SYSTEM\sys -I ..\SYSTEM\delay -I ..\SYSTEM\usart -I ..\HARDWARE\EC11 -I ..\HARDWARE\ET2259 -I ..\Func485 -I ..\HARDWARE\ET62429-I E:\WorkHope\S400\trunk\S400_GD130\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\Keil\GD32F1xx_DFP\1.1.0\Device\GD32F1x0\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="520" -DGD32F1x0 -DUSE_STDPERIPH_DRIVER-o .\output\et2259.o --omf_browse .\output\et2259.crf --depend .\output\et2259.d)
+I (..\HARDWARE\ET2259\ET2259.h)(0x57CE8FCE)
+I (..\SYSTEM\sys\sys.h)(0x57B3B943)
+I (..\Firmware\CMSIS\gd32f1x0.h)(0x57A02871)
+I (..\Firmware\CMSIS\core_cm3.h)(0x5652AE6F)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DB2B80)
+I (..\Firmware\CMSIS\system_gd32f1x0.h)(0x5652AE6F)
+I (..\..\S400_GD130\gd32f1x0_conf.h)(0x57A93C65)
+I (..\Firmware\Peripherals\inc\gd32f1x0_adc.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_cmp.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_crc.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_exti.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_fmc.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_gpio.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_misc.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_rcc.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_rtc.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_spi.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_syscfg.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_timer.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_usart.h)(0x5652AE70)
+I (..\HARDWARE\ET2259\myiic.h)(0x57B3C708)
+I (..\Func485\FuncAPI.h)(0x57CFB79C)
+I (..\SYSTEM\usart\usart.h)(0x57A0033A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x55DB2B76)
+I (..\SYSTEM\delay\delay.h)(0x57A02CAC)
+I (..\HARDWARE\ET62429\ET62429.h)(0x57CE8289)
+F (..\HARDWARE\ET2259\myiic.c)(0x57B3CFC7)(-c --cpu Cortex-M3 -g -W -O0 --apcs=interwork --split_sections -I ..\..\S400_GD130 -I ..\Firmware\Peripherals\inc -I ..\Firmware\CMSIS -I ..\HARDWARE\LED -I ..\SYSTEM\sys -I ..\SYSTEM\delay -I ..\SYSTEM\usart -I ..\HARDWARE\EC11 -I ..\HARDWARE\ET2259 -I ..\Func485 -I ..\HARDWARE\ET62429-I E:\WorkHope\S400\trunk\S400_GD130\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\Keil\GD32F1xx_DFP\1.1.0\Device\GD32F1x0\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="520" -DGD32F1x0 -DUSE_STDPERIPH_DRIVER-o .\output\myiic.o --omf_browse .\output\myiic.crf --depend .\output\myiic.d)
+I (..\HARDWARE\ET2259\myiic.h)(0x57B3C708)
+I (..\SYSTEM\sys\sys.h)(0x57B3B943)
+I (..\Firmware\CMSIS\gd32f1x0.h)(0x57A02871)
+I (..\Firmware\CMSIS\core_cm3.h)(0x5652AE6F)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DB2B80)
+I (..\Firmware\CMSIS\system_gd32f1x0.h)(0x5652AE6F)
+I (..\..\S400_GD130\gd32f1x0_conf.h)(0x57A93C65)
+I (..\Firmware\Peripherals\inc\gd32f1x0_adc.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_cmp.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_crc.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_exti.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_fmc.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_gpio.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_misc.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_rcc.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_rtc.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_spi.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_syscfg.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_timer.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_usart.h)(0x5652AE70)
+I (..\SYSTEM\delay\delay.h)(0x57A02CAC)
+F (..\HARDWARE\ET62429\ET62429.c)(0x57D2508C)(-c --cpu Cortex-M3 -g -W -O0 --apcs=interwork --split_sections -I ..\..\S400_GD130 -I ..\Firmware\Peripherals\inc -I ..\Firmware\CMSIS -I ..\HARDWARE\LED -I ..\SYSTEM\sys -I ..\SYSTEM\delay -I ..\SYSTEM\usart -I ..\HARDWARE\EC11 -I ..\HARDWARE\ET2259 -I ..\Func485 -I ..\HARDWARE\ET62429-I E:\WorkHope\S400\trunk\S400_GD130\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\Keil\GD32F1xx_DFP\1.1.0\Device\GD32F1x0\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="520" -DGD32F1x0 -DUSE_STDPERIPH_DRIVER-o .\output\et62429.o --omf_browse .\output\et62429.crf --depend .\output\et62429.d)
+I (..\HARDWARE\ET62429\ET62429.h)(0x57CE8289)
+I (..\SYSTEM\sys\sys.h)(0x57B3B943)
+I (..\Firmware\CMSIS\gd32f1x0.h)(0x57A02871)
+I (..\Firmware\CMSIS\core_cm3.h)(0x5652AE6F)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DB2B80)
+I (..\Firmware\CMSIS\system_gd32f1x0.h)(0x5652AE6F)
+I (..\..\S400_GD130\gd32f1x0_conf.h)(0x57A93C65)
+I (..\Firmware\Peripherals\inc\gd32f1x0_adc.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_cmp.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_crc.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_exti.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_fmc.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_gpio.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_misc.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_rcc.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_rtc.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_spi.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_syscfg.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_timer.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_usart.h)(0x5652AE70)
+I (..\SYSTEM\delay\delay.h)(0x57A02CAC)
+I (..\HARDWARE\ET2259\myiic.h)(0x57B3C708)
+I (..\SYSTEM\usart\usart.h)(0x57A0033A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x55DB2B76)
+F (..\SYSTEM\sys\sys.c)(0x57B3BB73)(-c --cpu Cortex-M3 -g -W -O0 --apcs=interwork --split_sections -I ..\..\S400_GD130 -I ..\Firmware\Peripherals\inc -I ..\Firmware\CMSIS -I ..\HARDWARE\LED -I ..\SYSTEM\sys -I ..\SYSTEM\delay -I ..\SYSTEM\usart -I ..\HARDWARE\EC11 -I ..\HARDWARE\ET2259 -I ..\Func485 -I ..\HARDWARE\ET62429-I E:\WorkHope\S400\trunk\S400_GD130\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\Keil\GD32F1xx_DFP\1.1.0\Device\GD32F1x0\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="520" -DGD32F1x0 -DUSE_STDPERIPH_DRIVER-o .\output\sys.o --omf_browse .\output\sys.crf --depend .\output\sys.d)
+I (..\SYSTEM\sys\sys.h)(0x57B3B943)
+I (..\Firmware\CMSIS\gd32f1x0.h)(0x57A02871)
+I (..\Firmware\CMSIS\core_cm3.h)(0x5652AE6F)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DB2B80)
+I (..\Firmware\CMSIS\system_gd32f1x0.h)(0x5652AE6F)
+I (..\..\S400_GD130\gd32f1x0_conf.h)(0x57A93C65)
+I (..\Firmware\Peripherals\inc\gd32f1x0_adc.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_cmp.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_crc.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_exti.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_fmc.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_gpio.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_misc.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_rcc.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_rtc.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_spi.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_syscfg.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_timer.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_usart.h)(0x5652AE70)
+F (..\SYSTEM\delay\delay.c)(0x57A02C9B)(-c --cpu Cortex-M3 -g -W -O0 --apcs=interwork --split_sections -I ..\..\S400_GD130 -I ..\Firmware\Peripherals\inc -I ..\Firmware\CMSIS -I ..\HARDWARE\LED -I ..\SYSTEM\sys -I ..\SYSTEM\delay -I ..\SYSTEM\usart -I ..\HARDWARE\EC11 -I ..\HARDWARE\ET2259 -I ..\Func485 -I ..\HARDWARE\ET62429-I E:\WorkHope\S400\trunk\S400_GD130\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\Keil\GD32F1xx_DFP\1.1.0\Device\GD32F1x0\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="520" -DGD32F1x0 -DUSE_STDPERIPH_DRIVER-o .\output\delay.o --omf_browse .\output\delay.crf --depend .\output\delay.d)
+I (..\SYSTEM\delay\delay.h)(0x57A02CAC)
+I (..\SYSTEM\sys\sys.h)(0x57B3B943)
+I (..\Firmware\CMSIS\gd32f1x0.h)(0x57A02871)
+I (..\Firmware\CMSIS\core_cm3.h)(0x5652AE6F)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DB2B80)
+I (..\Firmware\CMSIS\system_gd32f1x0.h)(0x5652AE6F)
+I (..\..\S400_GD130\gd32f1x0_conf.h)(0x57A93C65)
+I (..\Firmware\Peripherals\inc\gd32f1x0_adc.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_cmp.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_crc.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_exti.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_fmc.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_gpio.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_misc.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_rcc.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_rtc.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_spi.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_syscfg.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_timer.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_usart.h)(0x5652AE70)
+F (..\SYSTEM\usart\usart.c)(0x57B3D4C5)(-c --cpu Cortex-M3 -g -W -O0 --apcs=interwork --split_sections -I ..\..\S400_GD130 -I ..\Firmware\Peripherals\inc -I ..\Firmware\CMSIS -I ..\HARDWARE\LED -I ..\SYSTEM\sys -I ..\SYSTEM\delay -I ..\SYSTEM\usart -I ..\HARDWARE\EC11 -I ..\HARDWARE\ET2259 -I ..\Func485 -I ..\HARDWARE\ET62429-I E:\WorkHope\S400\trunk\S400_GD130\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\Keil\GD32F1xx_DFP\1.1.0\Device\GD32F1x0\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="520" -DGD32F1x0 -DUSE_STDPERIPH_DRIVER-o .\output\usart.o --omf_browse .\output\usart.crf --depend .\output\usart.d)
+I (..\SYSTEM\sys\sys.h)(0x57B3B943)
+I (..\Firmware\CMSIS\gd32f1x0.h)(0x57A02871)
+I (..\Firmware\CMSIS\core_cm3.h)(0x5652AE6F)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DB2B80)
+I (..\Firmware\CMSIS\system_gd32f1x0.h)(0x5652AE6F)
+I (..\..\S400_GD130\gd32f1x0_conf.h)(0x57A93C65)
+I (..\Firmware\Peripherals\inc\gd32f1x0_adc.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_cmp.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_crc.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_exti.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_fmc.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_gpio.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_misc.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_rcc.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_rtc.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_spi.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_syscfg.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_timer.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_usart.h)(0x5652AE70)
+I (..\SYSTEM\usart\usart.h)(0x57A0033A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x55DB2B76)
+F (..\Firmware\CMSIS\core_cm3.c)(0x5652AE6F)(-c --cpu Cortex-M3 -g -W -O0 --apcs=interwork --split_sections -I ..\..\S400_GD130 -I ..\Firmware\Peripherals\inc -I ..\Firmware\CMSIS -I ..\HARDWARE\LED -I ..\SYSTEM\sys -I ..\SYSTEM\delay -I ..\SYSTEM\usart -I ..\HARDWARE\EC11 -I ..\HARDWARE\ET2259 -I ..\Func485 -I ..\HARDWARE\ET62429-I E:\WorkHope\S400\trunk\S400_GD130\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\Keil\GD32F1xx_DFP\1.1.0\Device\GD32F1x0\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="520" -DGD32F1x0 -DUSE_STDPERIPH_DRIVER-o .\output\core_cm3.o --omf_browse .\output\core_cm3.crf --depend .\output\core_cm3.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DB2B80)
+F (..\Firmware\CMSIS\system_gd32f1x0.c)(0x57B2D70C)(-c --cpu Cortex-M3 -g -W -O0 --apcs=interwork --split_sections -I ..\..\S400_GD130 -I ..\Firmware\Peripherals\inc -I ..\Firmware\CMSIS -I ..\HARDWARE\LED -I ..\SYSTEM\sys -I ..\SYSTEM\delay -I ..\SYSTEM\usart -I ..\HARDWARE\EC11 -I ..\HARDWARE\ET2259 -I ..\Func485 -I ..\HARDWARE\ET62429-I E:\WorkHope\S400\trunk\S400_GD130\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\Keil\GD32F1xx_DFP\1.1.0\Device\GD32F1x0\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="520" -DGD32F1x0 -DUSE_STDPERIPH_DRIVER-o .\output\system_gd32f1x0.o --omf_browse .\output\system_gd32f1x0.crf --depend .\output\system_gd32f1x0.d)
+I (..\Firmware\CMSIS\gd32f1x0.h)(0x57A02871)
+I (..\Firmware\CMSIS\core_cm3.h)(0x5652AE6F)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DB2B80)
+I (..\Firmware\CMSIS\system_gd32f1x0.h)(0x5652AE6F)
+I (..\..\S400_GD130\gd32f1x0_conf.h)(0x57A93C65)
+I (..\Firmware\Peripherals\inc\gd32f1x0_adc.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_cmp.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_crc.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_exti.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_fmc.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_gpio.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_misc.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_rcc.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_rtc.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_spi.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_syscfg.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_timer.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_usart.h)(0x5652AE70)
+F (..\Firmware\Peripherals\src\gd32f1x0_crc.c)(0x5652AE70)(-c --cpu Cortex-M3 -g -W -O0 --apcs=interwork --split_sections -I ..\..\S400_GD130 -I ..\Firmware\Peripherals\inc -I ..\Firmware\CMSIS -I ..\HARDWARE\LED -I ..\SYSTEM\sys -I ..\SYSTEM\delay -I ..\SYSTEM\usart -I ..\HARDWARE\EC11 -I ..\HARDWARE\ET2259 -I ..\Func485 -I ..\HARDWARE\ET62429-I E:\WorkHope\S400\trunk\S400_GD130\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\Keil\GD32F1xx_DFP\1.1.0\Device\GD32F1x0\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="520" -DGD32F1x0 -DUSE_STDPERIPH_DRIVER-o .\output\gd32f1x0_crc.o --omf_browse .\output\gd32f1x0_crc.crf --depend .\output\gd32f1x0_crc.d)
+I (..\Firmware\Peripherals\inc\gd32f1x0_crc.h)(0x5652AE70)
+I (..\Firmware\CMSIS\gd32f1x0.h)(0x57A02871)
+I (..\Firmware\CMSIS\core_cm3.h)(0x5652AE6F)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DB2B80)
+I (..\Firmware\CMSIS\system_gd32f1x0.h)(0x5652AE6F)
+I (..\..\S400_GD130\gd32f1x0_conf.h)(0x57A93C65)
+I (..\Firmware\Peripherals\inc\gd32f1x0_adc.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_cmp.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_exti.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_fmc.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_gpio.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_misc.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_rcc.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_rtc.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_spi.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_syscfg.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_timer.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_usart.h)(0x5652AE70)
+F (..\Firmware\Peripherals\src\gd32f1x0_exti.c)(0x5652AE70)(-c --cpu Cortex-M3 -g -W -O0 --apcs=interwork --split_sections -I ..\..\S400_GD130 -I ..\Firmware\Peripherals\inc -I ..\Firmware\CMSIS -I ..\HARDWARE\LED -I ..\SYSTEM\sys -I ..\SYSTEM\delay -I ..\SYSTEM\usart -I ..\HARDWARE\EC11 -I ..\HARDWARE\ET2259 -I ..\Func485 -I ..\HARDWARE\ET62429-I E:\WorkHope\S400\trunk\S400_GD130\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\Keil\GD32F1xx_DFP\1.1.0\Device\GD32F1x0\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="520" -DGD32F1x0 -DUSE_STDPERIPH_DRIVER-o .\output\gd32f1x0_exti.o --omf_browse .\output\gd32f1x0_exti.crf --depend .\output\gd32f1x0_exti.d)
+I (..\Firmware\Peripherals\inc\gd32f1x0_exti.h)(0x5652AE70)
+I (..\Firmware\CMSIS\gd32f1x0.h)(0x57A02871)
+I (..\Firmware\CMSIS\core_cm3.h)(0x5652AE6F)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DB2B80)
+I (..\Firmware\CMSIS\system_gd32f1x0.h)(0x5652AE6F)
+I (..\..\S400_GD130\gd32f1x0_conf.h)(0x57A93C65)
+I (..\Firmware\Peripherals\inc\gd32f1x0_adc.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_cmp.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_crc.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_fmc.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_gpio.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_misc.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_rcc.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_rtc.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_spi.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_syscfg.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_timer.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_usart.h)(0x5652AE70)
+F (..\Firmware\Peripherals\src\gd32f1x0_gpio.c)(0x5652AE70)(-c --cpu Cortex-M3 -g -W -O0 --apcs=interwork --split_sections -I ..\..\S400_GD130 -I ..\Firmware\Peripherals\inc -I ..\Firmware\CMSIS -I ..\HARDWARE\LED -I ..\SYSTEM\sys -I ..\SYSTEM\delay -I ..\SYSTEM\usart -I ..\HARDWARE\EC11 -I ..\HARDWARE\ET2259 -I ..\Func485 -I ..\HARDWARE\ET62429-I E:\WorkHope\S400\trunk\S400_GD130\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\Keil\GD32F1xx_DFP\1.1.0\Device\GD32F1x0\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="520" -DGD32F1x0 -DUSE_STDPERIPH_DRIVER-o .\output\gd32f1x0_gpio.o --omf_browse .\output\gd32f1x0_gpio.crf --depend .\output\gd32f1x0_gpio.d)
+I (..\Firmware\Peripherals\inc\gd32f1x0_gpio.h)(0x5652AE70)
+I (..\Firmware\CMSIS\gd32f1x0.h)(0x57A02871)
+I (..\Firmware\CMSIS\core_cm3.h)(0x5652AE6F)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DB2B80)
+I (..\Firmware\CMSIS\system_gd32f1x0.h)(0x5652AE6F)
+I (..\..\S400_GD130\gd32f1x0_conf.h)(0x57A93C65)
+I (..\Firmware\Peripherals\inc\gd32f1x0_adc.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_cmp.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_crc.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_exti.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_fmc.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_misc.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_rcc.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_rtc.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_spi.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_syscfg.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_timer.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_usart.h)(0x5652AE70)
+F (..\Firmware\Peripherals\src\gd32f1x0_misc.c)(0x5652AE6F)(-c --cpu Cortex-M3 -g -W -O0 --apcs=interwork --split_sections -I ..\..\S400_GD130 -I ..\Firmware\Peripherals\inc -I ..\Firmware\CMSIS -I ..\HARDWARE\LED -I ..\SYSTEM\sys -I ..\SYSTEM\delay -I ..\SYSTEM\usart -I ..\HARDWARE\EC11 -I ..\HARDWARE\ET2259 -I ..\Func485 -I ..\HARDWARE\ET62429-I E:\WorkHope\S400\trunk\S400_GD130\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\Keil\GD32F1xx_DFP\1.1.0\Device\GD32F1x0\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="520" -DGD32F1x0 -DUSE_STDPERIPH_DRIVER-o .\output\gd32f1x0_misc.o --omf_browse .\output\gd32f1x0_misc.crf --depend .\output\gd32f1x0_misc.d)
+I (..\Firmware\Peripherals\inc\gd32f1x0_misc.h)(0x5652AE70)
+I (..\Firmware\CMSIS\gd32f1x0.h)(0x57A02871)
+I (..\Firmware\CMSIS\core_cm3.h)(0x5652AE6F)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DB2B80)
+I (..\Firmware\CMSIS\system_gd32f1x0.h)(0x5652AE6F)
+I (..\..\S400_GD130\gd32f1x0_conf.h)(0x57A93C65)
+I (..\Firmware\Peripherals\inc\gd32f1x0_adc.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_cmp.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_crc.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_exti.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_fmc.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_gpio.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_rcc.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_rtc.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_spi.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_syscfg.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_timer.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_usart.h)(0x5652AE70)
+F (..\Firmware\Peripherals\src\gd32f1x0_rcc.c)(0x5652AE70)(-c --cpu Cortex-M3 -g -W -O0 --apcs=interwork --split_sections -I ..\..\S400_GD130 -I ..\Firmware\Peripherals\inc -I ..\Firmware\CMSIS -I ..\HARDWARE\LED -I ..\SYSTEM\sys -I ..\SYSTEM\delay -I ..\SYSTEM\usart -I ..\HARDWARE\EC11 -I ..\HARDWARE\ET2259 -I ..\Func485 -I ..\HARDWARE\ET62429-I E:\WorkHope\S400\trunk\S400_GD130\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\Keil\GD32F1xx_DFP\1.1.0\Device\GD32F1x0\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="520" -DGD32F1x0 -DUSE_STDPERIPH_DRIVER-o .\output\gd32f1x0_rcc.o --omf_browse .\output\gd32f1x0_rcc.crf --depend .\output\gd32f1x0_rcc.d)
+I (..\Firmware\Peripherals\inc\gd32f1x0_rcc.h)(0x5652AE70)
+I (..\Firmware\CMSIS\gd32f1x0.h)(0x57A02871)
+I (..\Firmware\CMSIS\core_cm3.h)(0x5652AE6F)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DB2B80)
+I (..\Firmware\CMSIS\system_gd32f1x0.h)(0x5652AE6F)
+I (..\..\S400_GD130\gd32f1x0_conf.h)(0x57A93C65)
+I (..\Firmware\Peripherals\inc\gd32f1x0_adc.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_cmp.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_crc.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_exti.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_fmc.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_gpio.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_misc.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_rtc.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_spi.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_syscfg.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_timer.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_usart.h)(0x5652AE70)
+F (..\Firmware\Peripherals\src\gd32f1x0_rtc.c)(0x5652AE6F)(-c --cpu Cortex-M3 -g -W -O0 --apcs=interwork --split_sections -I ..\..\S400_GD130 -I ..\Firmware\Peripherals\inc -I ..\Firmware\CMSIS -I ..\HARDWARE\LED -I ..\SYSTEM\sys -I ..\SYSTEM\delay -I ..\SYSTEM\usart -I ..\HARDWARE\EC11 -I ..\HARDWARE\ET2259 -I ..\Func485 -I ..\HARDWARE\ET62429-I E:\WorkHope\S400\trunk\S400_GD130\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\Keil\GD32F1xx_DFP\1.1.0\Device\GD32F1x0\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="520" -DGD32F1x0 -DUSE_STDPERIPH_DRIVER-o .\output\gd32f1x0_rtc.o --omf_browse .\output\gd32f1x0_rtc.crf --depend .\output\gd32f1x0_rtc.d)
+I (..\Firmware\Peripherals\inc\gd32f1x0_rtc.h)(0x5652AE70)
+I (..\Firmware\CMSIS\gd32f1x0.h)(0x57A02871)
+I (..\Firmware\CMSIS\core_cm3.h)(0x5652AE6F)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DB2B80)
+I (..\Firmware\CMSIS\system_gd32f1x0.h)(0x5652AE6F)
+I (..\..\S400_GD130\gd32f1x0_conf.h)(0x57A93C65)
+I (..\Firmware\Peripherals\inc\gd32f1x0_adc.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_cmp.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_crc.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_exti.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_fmc.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_gpio.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_misc.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_rcc.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_spi.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_syscfg.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_timer.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_usart.h)(0x5652AE70)
+F (..\Firmware\Peripherals\src\gd32f1x0_timer.c)(0x5652AE6F)(-c --cpu Cortex-M3 -g -W -O0 --apcs=interwork --split_sections -I ..\..\S400_GD130 -I ..\Firmware\Peripherals\inc -I ..\Firmware\CMSIS -I ..\HARDWARE\LED -I ..\SYSTEM\sys -I ..\SYSTEM\delay -I ..\SYSTEM\usart -I ..\HARDWARE\EC11 -I ..\HARDWARE\ET2259 -I ..\Func485 -I ..\HARDWARE\ET62429-I E:\WorkHope\S400\trunk\S400_GD130\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\Keil\GD32F1xx_DFP\1.1.0\Device\GD32F1x0\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="520" -DGD32F1x0 -DUSE_STDPERIPH_DRIVER-o .\output\gd32f1x0_timer.o --omf_browse .\output\gd32f1x0_timer.crf --depend .\output\gd32f1x0_timer.d)
+I (..\Firmware\Peripherals\inc\gd32f1x0_timer.h)(0x5652AE70)
+I (..\Firmware\CMSIS\gd32f1x0.h)(0x57A02871)
+I (..\Firmware\CMSIS\core_cm3.h)(0x5652AE6F)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DB2B80)
+I (..\Firmware\CMSIS\system_gd32f1x0.h)(0x5652AE6F)
+I (..\..\S400_GD130\gd32f1x0_conf.h)(0x57A93C65)
+I (..\Firmware\Peripherals\inc\gd32f1x0_adc.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_cmp.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_crc.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_exti.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_fmc.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_gpio.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_misc.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_rcc.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_rtc.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_spi.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_syscfg.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_usart.h)(0x5652AE70)
+F (..\Firmware\Peripherals\src\gd32f1x0_usart.c)(0x5652AE70)(-c --cpu Cortex-M3 -g -W -O0 --apcs=interwork --split_sections -I ..\..\S400_GD130 -I ..\Firmware\Peripherals\inc -I ..\Firmware\CMSIS -I ..\HARDWARE\LED -I ..\SYSTEM\sys -I ..\SYSTEM\delay -I ..\SYSTEM\usart -I ..\HARDWARE\EC11 -I ..\HARDWARE\ET2259 -I ..\Func485 -I ..\HARDWARE\ET62429-I E:\WorkHope\S400\trunk\S400_GD130\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\Keil\GD32F1xx_DFP\1.1.0\Device\GD32F1x0\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="520" -DGD32F1x0 -DUSE_STDPERIPH_DRIVER-o .\output\gd32f1x0_usart.o --omf_browse .\output\gd32f1x0_usart.crf --depend .\output\gd32f1x0_usart.d)
+I (..\Firmware\Peripherals\inc\gd32f1x0_usart.h)(0x5652AE70)
+I (..\Firmware\CMSIS\gd32f1x0.h)(0x57A02871)
+I (..\Firmware\CMSIS\core_cm3.h)(0x5652AE6F)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DB2B80)
+I (..\Firmware\CMSIS\system_gd32f1x0.h)(0x5652AE6F)
+I (..\..\S400_GD130\gd32f1x0_conf.h)(0x57A93C65)
+I (..\Firmware\Peripherals\inc\gd32f1x0_adc.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_cmp.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_crc.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_exti.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_fmc.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_gpio.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_misc.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_rcc.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_rtc.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_spi.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_syscfg.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_timer.h)(0x5652AE70)
+F (..\Firmware\Peripherals\src\gd32f1x0_fmc.c)(0x5652AE70)(-c --cpu Cortex-M3 -g -W -O0 --apcs=interwork --split_sections -I ..\..\S400_GD130 -I ..\Firmware\Peripherals\inc -I ..\Firmware\CMSIS -I ..\HARDWARE\LED -I ..\SYSTEM\sys -I ..\SYSTEM\delay -I ..\SYSTEM\usart -I ..\HARDWARE\EC11 -I ..\HARDWARE\ET2259 -I ..\Func485 -I ..\HARDWARE\ET62429-I E:\WorkHope\S400\trunk\S400_GD130\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\Keil\GD32F1xx_DFP\1.1.0\Device\GD32F1x0\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="520" -DGD32F1x0 -DUSE_STDPERIPH_DRIVER-o .\output\gd32f1x0_fmc.o --omf_browse .\output\gd32f1x0_fmc.crf --depend .\output\gd32f1x0_fmc.d)
+I (..\Firmware\Peripherals\inc\gd32f1x0_fmc.h)(0x5652AE70)
+I (..\Firmware\CMSIS\gd32f1x0.h)(0x57A02871)
+I (..\Firmware\CMSIS\core_cm3.h)(0x5652AE6F)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DB2B80)
+I (..\Firmware\CMSIS\system_gd32f1x0.h)(0x5652AE6F)
+I (..\..\S400_GD130\gd32f1x0_conf.h)(0x57A93C65)
+I (..\Firmware\Peripherals\inc\gd32f1x0_adc.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_cmp.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_crc.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_exti.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_gpio.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_misc.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_rcc.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_rtc.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_spi.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_syscfg.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_timer.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_usart.h)(0x5652AE70)
+F (..\Firmware\CMSIS\startup_gd32f1x0.s)(0x5652AE6F)(--cpu Cortex-M3 -g --apcs=interwork -I E:\WorkHope\S400\trunk\S400_GD130\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\Keil\GD32F1xx_DFP\1.1.0\Device\GD32F1x0\Include-I C:\Keil_v5\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 520" --pd "GD32F1x0 SETA 1"--list .\list\startup_gd32f1x0.lst --xref -o .\output\startup_gd32f1x0.o --depend .\output\startup_gd32f1x0.d)
+F (..\Func485\Func485.c)(0x57CFB703)(-c --cpu Cortex-M3 -g -W -O0 --apcs=interwork --split_sections -I ..\..\S400_GD130 -I ..\Firmware\Peripherals\inc -I ..\Firmware\CMSIS -I ..\HARDWARE\LED -I ..\SYSTEM\sys -I ..\SYSTEM\delay -I ..\SYSTEM\usart -I ..\HARDWARE\EC11 -I ..\HARDWARE\ET2259 -I ..\Func485 -I ..\HARDWARE\ET62429-I E:\WorkHope\S400\trunk\S400_GD130\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\Keil\GD32F1xx_DFP\1.1.0\Device\GD32F1x0\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="520" -DGD32F1x0 -DUSE_STDPERIPH_DRIVER-o .\output\func485.o --omf_browse .\output\func485.crf --depend .\output\func485.d)
+I (..\Func485\func485.h)(0x57BFCA96)
+I (..\SYSTEM\sys\sys.h)(0x57B3B943)
+I (..\Firmware\CMSIS\gd32f1x0.h)(0x57A02871)
+I (..\Firmware\CMSIS\core_cm3.h)(0x5652AE6F)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DB2B80)
+I (..\Firmware\CMSIS\system_gd32f1x0.h)(0x5652AE6F)
+I (..\..\S400_GD130\gd32f1x0_conf.h)(0x57A93C65)
+I (..\Firmware\Peripherals\inc\gd32f1x0_adc.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_cmp.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_crc.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_exti.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_fmc.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_gpio.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_misc.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_rcc.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_rtc.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_spi.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_syscfg.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_timer.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_usart.h)(0x5652AE70)
+I (..\Func485\uart3.h)(0x57BFCA96)
+I (..\SYSTEM\usart\usart.h)(0x57A0033A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x55DB2B76)
+I (..\Func485\FuncAPI.h)(0x57CFB79C)
+I (..\Func485\DataSave.h)(0x57A939BC)
+I (..\SYSTEM\delay\delay.h)(0x57A02CAC)
+F (..\Func485\FuncAPI.c)(0x57D251C8)(-c --cpu Cortex-M3 -g -W -O0 --apcs=interwork --split_sections -I ..\..\S400_GD130 -I ..\Firmware\Peripherals\inc -I ..\Firmware\CMSIS -I ..\HARDWARE\LED -I ..\SYSTEM\sys -I ..\SYSTEM\delay -I ..\SYSTEM\usart -I ..\HARDWARE\EC11 -I ..\HARDWARE\ET2259 -I ..\Func485 -I ..\HARDWARE\ET62429-I E:\WorkHope\S400\trunk\S400_GD130\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\Keil\GD32F1xx_DFP\1.1.0\Device\GD32F1x0\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="520" -DGD32F1x0 -DUSE_STDPERIPH_DRIVER-o .\output\funcapi.o --omf_browse .\output\funcapi.crf --depend .\output\funcapi.d)
+I (..\Func485\FuncAPI.h)(0x57CFB79C)
+I (..\SYSTEM\sys\sys.h)(0x57B3B943)
+I (..\Firmware\CMSIS\gd32f1x0.h)(0x57A02871)
+I (..\Firmware\CMSIS\core_cm3.h)(0x5652AE6F)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DB2B80)
+I (..\Firmware\CMSIS\system_gd32f1x0.h)(0x5652AE6F)
+I (..\..\S400_GD130\gd32f1x0_conf.h)(0x57A93C65)
+I (..\Firmware\Peripherals\inc\gd32f1x0_adc.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_cmp.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_crc.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_exti.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_fmc.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_gpio.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_misc.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_rcc.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_rtc.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_spi.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_syscfg.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_timer.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_usart.h)(0x5652AE70)
+I (..\SYSTEM\usart\usart.h)(0x57A0033A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x55DB2B76)
+I (..\HARDWARE\ET2259\ET2259.h)(0x57CE8FCE)
+I (..\Func485\DataSave.h)(0x57A939BC)
+F (..\Func485\uart3.c)(0x57BFCA96)(-c --cpu Cortex-M3 -g -W -O0 --apcs=interwork --split_sections -I ..\..\S400_GD130 -I ..\Firmware\Peripherals\inc -I ..\Firmware\CMSIS -I ..\HARDWARE\LED -I ..\SYSTEM\sys -I ..\SYSTEM\delay -I ..\SYSTEM\usart -I ..\HARDWARE\EC11 -I ..\HARDWARE\ET2259 -I ..\Func485 -I ..\HARDWARE\ET62429-I E:\WorkHope\S400\trunk\S400_GD130\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\Keil\GD32F1xx_DFP\1.1.0\Device\GD32F1x0\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="520" -DGD32F1x0 -DUSE_STDPERIPH_DRIVER-o .\output\uart3.o --omf_browse .\output\uart3.crf --depend .\output\uart3.d)
+I (..\Func485\uart3.h)(0x57BFCA96)
+I (..\SYSTEM\sys\sys.h)(0x57B3B943)
+I (..\Firmware\CMSIS\gd32f1x0.h)(0x57A02871)
+I (..\Firmware\CMSIS\core_cm3.h)(0x5652AE6F)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DB2B80)
+I (..\Firmware\CMSIS\system_gd32f1x0.h)(0x5652AE6F)
+I (..\..\S400_GD130\gd32f1x0_conf.h)(0x57A93C65)
+I (..\Firmware\Peripherals\inc\gd32f1x0_adc.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_cmp.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_crc.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_exti.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_fmc.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_gpio.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_misc.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_rcc.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_rtc.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_spi.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_syscfg.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_timer.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_usart.h)(0x5652AE70)
+I (..\SYSTEM\usart\usart.h)(0x57A0033A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x55DB2B76)
+I (..\Func485\func485.h)(0x57BFCA96)
+F (..\Func485\DataSave.c)(0x57CFB782)(-c --cpu Cortex-M3 -g -W -O0 --apcs=interwork --split_sections -I ..\..\S400_GD130 -I ..\Firmware\Peripherals\inc -I ..\Firmware\CMSIS -I ..\HARDWARE\LED -I ..\SYSTEM\sys -I ..\SYSTEM\delay -I ..\SYSTEM\usart -I ..\HARDWARE\EC11 -I ..\HARDWARE\ET2259 -I ..\Func485 -I ..\HARDWARE\ET62429-I E:\WorkHope\S400\trunk\S400_GD130\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\Keil\GD32F1xx_DFP\1.1.0\Device\GD32F1x0\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="520" -DGD32F1x0 -DUSE_STDPERIPH_DRIVER-o .\output\datasave.o --omf_browse .\output\datasave.crf --depend .\output\datasave.d)
+I (..\Func485\DataSave.h)(0x57A939BC)
+I (..\SYSTEM\sys\sys.h)(0x57B3B943)
+I (..\Firmware\CMSIS\gd32f1x0.h)(0x57A02871)
+I (..\Firmware\CMSIS\core_cm3.h)(0x5652AE6F)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DB2B80)
+I (..\Firmware\CMSIS\system_gd32f1x0.h)(0x5652AE6F)
+I (..\..\S400_GD130\gd32f1x0_conf.h)(0x57A93C65)
+I (..\Firmware\Peripherals\inc\gd32f1x0_adc.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_cmp.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_crc.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_exti.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_fmc.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_gpio.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_misc.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_rcc.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_rtc.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_spi.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_syscfg.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_timer.h)(0x5652AE70)
+I (..\Firmware\Peripherals\inc\gd32f1x0_usart.h)(0x5652AE70)
+I (..\SYSTEM\usart\usart.h)(0x57A0033A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x55DB2B76)
+I (..\Func485\FuncAPI.h)(0x57CFB79C)
+I (..\Func485\Func485.h)(0x57BFCA96)
